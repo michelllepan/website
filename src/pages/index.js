@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout-2"
 import Intro from "../components/intro"
 import SEO from "../components/seo"
+import Experience from "../components/experience"
 
 const IndexPage = () => (
   // <Layout>
@@ -17,8 +18,9 @@ const IndexPage = () => (
   //   <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   // </Layout>
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Michelle Pan" />
     <Intro />
+    {/* <Experience /> */}
   </Layout>
 )
 
