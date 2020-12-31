@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/michelle/Documents/website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"michelllepan","short_name":"michelle","start_url":"/","background_color":"#f58167","theme_color":"#f58167","display":"minimal-ui","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":null},
+      options: {"plugins":[],"name":"Michelle Pan","short_name":"Michelle Pan","start_url":"/","background_color":"#f58167","theme_color":"#f58167","display":"minimal-ui","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":null},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

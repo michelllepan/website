@@ -31,8 +31,8 @@ const ImgWrapper = styled.div`
 `
 
 const Highlight = styled.span`
-    ${'' /* background: linear-gradient(180deg, #fcb19f 58%, #FFFFFF 58%); */}
-    background: linear-gradient(180deg, #FFFFFF 51%, rgba(245, 129, 103, 0.45) 51%);
+    background: linear-gradient(180deg, #FFFFFF 51%, #FDC1B3 51%);
+    ${'' /* background: linear-gradient(180deg, #FFFFFF 51%, rgba(245, 129, 103, 0.5) 51%); */}
     padding: 0 0.4rem;
     margin-left: -0.4rem;
     ${'' /* color: #f58167; */}

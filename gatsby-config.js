@@ -28,13 +28,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `michelllepan`,
-        short_name: `michelle`,
+        name: `Michelle Pan`,
+        short_name: `Michelle Pan`,
         start_url: `/`,
         background_color: `#f58167`,
         theme_color: `#f58167`,
-        display: `minimal-ui`,
-        // icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        display: `minimal-ui`
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
