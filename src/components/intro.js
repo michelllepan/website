@@ -7,8 +7,8 @@ import "./layout-2.css"
 const IntroContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+    justify-content: flex-end;
+    height: 70vh;
 `
 
 const RowContainer = styled.div`

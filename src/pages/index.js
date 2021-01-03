@@ -1,9 +1,10 @@
 import React from "react"
 
 import Layout from "../components/layout-2"
-import Intro from "../components/intro"
 import SEO from "../components/seo"
+import Intro from "../components/intro"
 import Experience from "../components/experience"
+import Footer from "../components/footer"
 
 const IndexPage = () => (
   // <Layout>
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <SEO title="Michelle Pan" />
     <Intro />
     {/* <Experience /> */}
+    <Footer />
   </Layout>
 )
 
