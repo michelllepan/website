@@ -34,7 +34,7 @@ const RowContainer = styled.div`
 
 const IconWrapper = styled.a`
     margin: 0.8rem;
-    opacity: 0.15;
+    opacity: 0.16;
     &:hover {
         opacity: 0.3;
     }

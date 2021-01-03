@@ -31,7 +31,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public -b master --repo https://github.com/michelllepan/michelllepan.github.io -m $npm_config_message",
+    "deploy": "gatsby build && gh-pages -d public -b master --repo https://github.com/michelllepan/michelllepan.github.io",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
