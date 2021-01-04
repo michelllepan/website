@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import "./layout-2.css"
+import "./layout.css"
 
 const ExpContainer = styled.div`
     display: flex;

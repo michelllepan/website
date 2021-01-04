@@ -6,9 +6,9 @@ import GitHub from "../assets/svg/github.svg"
 import LinkedIn from "../assets/svg/linkedin.svg"
 import Devpost from "../assets/svg/devpost.svg"
 import Behance from "../assets/svg/behance.svg"
-import Resume from "../assets/svg/resume.svg"
-import resumePDF from "../assets/michelle_pan_resume.pdf"
-import "./layout-2.css"
+import Goodreads from "../assets/svg/goodreads.svg"
+
+import "./layout.css"
 
 const FooterContainer = styled.div`
     display: flex;
@@ -47,7 +47,7 @@ const Footer = () => (
             <IconWrapper href="https://linkedin.com/in/michelllepan" target="_blank"><LinkedIn/></IconWrapper>
             <IconWrapper href="https://devpost.com/michelllepan" target="_blank"><Devpost/></IconWrapper>
             <IconWrapper href="https://www.behance.net/michelllepan" target="_blank"><Behance/></IconWrapper>
-            <IconWrapper href={resumePDF} target="_blank"><Resume/></IconWrapper>       
+            <IconWrapper href="https://www.goodreads.com/michelllepan" target="_blank"><Goodreads/></IconWrapper>
         </RowContainer>
         <p>michellepan at berkeley dot edu</p>
     </FooterContainer>

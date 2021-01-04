@@ -2,13 +2,13 @@ import React from "react"
 import Image from "../components/image"
 import styled from "styled-components"
 
-import "./layout-2.css"
+import "./layout.css"
 
 const IntroContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 70vh;
+    min-height: 65vh;
     margin: 0 50px;
 `
 
@@ -17,7 +17,7 @@ const RowContainer = styled.div`
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    padding-bottom: 2rem;
+    ${'' /* padding-bottom: 2rem; */}
 `
 
 const ColContainer = styled.div`
@@ -57,6 +57,10 @@ const Space = styled.div`
     width: 2rem;
 `
 
+const Link = styled.a`
+    color: #333333;
+`
+
 const Intro = () => (
     <IntroContainer>
         <RowContainer>
@@ -70,7 +74,7 @@ const Intro = () => (
                 <h1>hi! I'm <br/>
                 <Highlight>Michelle.</Highlight></h1>
                 <p><b>I'm a student interested in the intersection of technology and society.</b></p>
-                <p>Currently studying Computer Science & Statistics at UC Berkeley, teaching machines at Launchpad, and learning how to juggle.</p>
+                <p>Currently studying Computer Science & Statistics at UC Berkeley, teaching machines at <Link href="https://launchpad.berkeley.edu" target="_blank">Launchpad</Link>, and learning how to juggle.</p>
             </ColContainer>
             
         </RowContainer>
