@@ -52,7 +52,7 @@ const Image = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img fluid={data.file.childImageSharp.fluid} />
+  return <Img style={{margin: "auto"}} fluid={data.file.childImageSharp.fluid} />
 }
 
 export default Image

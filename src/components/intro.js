@@ -8,12 +8,15 @@ const IntroContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 70vh;
+    min-height: 70vh;
+    margin: 0 50px;
 `
 
 const RowContainer = styled.div`
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
     padding-bottom: 2rem;
 `
 
@@ -22,11 +25,23 @@ const ColContainer = styled.div`
     flex-direction: column;
     flex: 1;
     align-self: flex-end;
+    min-width: 400px;
+`
+
+const ImgContainer = styled.div`
+    display: flex;
+    flex: 0.75;
+    justify-content: center;
+    align-content: center;
+    min-width: 150px;
+    max-width: 30vw;
 `
 
 const ImgWrapper = styled.div`
-    height: inherit;
-    flex: 0.75;
+    display: inline;
+    flex: 1;
+    white-space: nowrap;
+    width: fill;
     ${'' /* margin-bottom: 3rem; */}
 `
 
@@ -45,9 +60,11 @@ const Space = styled.div`
 const Intro = () => (
     <IntroContainer>
         <RowContainer>
-            <ImgWrapper>
-                <Image />
-            </ImgWrapper>
+            <ImgContainer>
+                <ImgWrapper>
+                    <Image />
+                </ImgWrapper>
+            </ImgContainer>
             <Space />
             <ColContainer>
                 <h1>hi! I'm <br/>
